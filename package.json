@@ -1,0 +1,27 @@
+{
+  "name": "html-to-prosemirror",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tiptap/extension-highlight": "^3.10.2",
+    "@tiptap/extension-link": "^3.10.2",
+    "@tiptap/extension-text-align": "^3.10.2",
+    "@tiptap/extension-underline": "^3.10.2",
+    "@tiptap/html": "^3.10.2",
+    "@tiptap/starter-kit": "^3.10.2",
+    "express": "^5.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}
